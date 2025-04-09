@@ -1,0 +1,21 @@
+# Core
+streamlit
+
+# LlamaIndex
+llama-index-core==0.12.10
+llama-index-llms-huggingface==0.4.2
+llama-index-embeddings-huggingface==0.4.0
+llama-index-readers-file==0.4.7
+
+# HF
+transformers==4.39.3
+sentence-transformers==2.6.1
+huggingface_hub
+
+# ML
+torch==2.2.2
+numpy==1.26.4  # 💡 Downgraded for compatibility
+
+# Utils
+python-dotenv==1.0.1
+gdown==5.1.0
