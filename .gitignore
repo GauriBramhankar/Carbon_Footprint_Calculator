@@ -1,15 +1,4 @@
-# Ignore Hugging Face secrets
 hf.env
 .env
 *.env
-
-# Python cache
 __pycache__/
-*.pyc
-
-# Jupyter/Colab
-*.ipynb_checkpoints/
-
-# OS files
-.DS_Store
-Thumbs.db
