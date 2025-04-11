@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 # --- Custom Sidebar Logo + Background ---
-st.markdown(
+st.sidebar.markdown(
     """
     <style>
         [data-testid="stSidebar"]::before {
